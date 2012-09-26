@@ -1,13 +1,13 @@
 import spock.lang.*
 
 
-class FibonacciSpec extends Specification {
+class FibonacciRecursionSpec extends Specification {
 
-    Fibonnaci fibonacci
+    def fibonacci
 
     void setup() {
 
-        fibonacci = new Fibonnaci()
+        fibonacci = new FibonacciRecursion()
     }
 
     def "fibonacci #n is #p"() {
@@ -28,6 +28,13 @@ class FibonacciSpec extends Specification {
         5 | 5
         6 | 8
         7 | 13
+        8 | 21
+        9 | 34
+        10 | 55
+        11 | 89
+        12 | 144
+        13 | 233
+        14 | 377
     }
 
 }

@@ -1,6 +1,5 @@
 class QuickSortRecursion {
 
-    PivotGenerator pivotGenerator
     int[] integers
 
     void sort(int low, int high) {

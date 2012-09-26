@@ -1,4 +1,4 @@
-class Fibonnaci {
+class FibonacciRecursion {
 
     Integer fib (Integer n) {
 

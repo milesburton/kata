@@ -7,10 +7,7 @@ class QuickSortRecursionSpec extends Specification {
 
     void setup(){
 
-
         sorter = new QuickSortRecursion()
-
-        sorter.pivotGenerator = new PivotGenerator()
     }
 
     def "should sort from lowest to highest"() {
