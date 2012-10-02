@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73d6ffb6-8117-48cd-91b2-4f14947c1c14" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/groovy/ClockDegreesBetweenHands.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/groovy/UniqueCharsInStringIterative.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/groovy/ClockDegreesBetweenHandsSpec.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/groovy/StringReverseSpec.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/groovy/UniqueCharsInStringIterativeSpec.groovy" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/production/kata/FibonnaciIteration/FibonnaciIteration.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/groovy/FibonnaciIteration/FibonnaciIteration.groovy" afterPath="$PROJECT_DIR$/src/main/groovy/FibonnaciIteration.groovy" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/production/kata/FibonacciRecursion.class" afterPath="$PROJECT_DIR$/classes/production/kata/FibonacciRecursion.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/production/kata/QuickSortRecursion.class" afterPath="$PROJECT_DIR$/classes/production/kata/QuickSortRecursion.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/test/kata/FibonacciIterationSpec.class" afterPath="$PROJECT_DIR$/classes/test/kata/FibonacciIterationSpec.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/test/kata/FibonacciRecursionSpec.class" afterPath="$PROJECT_DIR$/classes/test/kata/FibonacciRecursionSpec.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/test/kata/QuickSortRecursionSpec.class" afterPath="$PROJECT_DIR$/classes/test/kata/QuickSortRecursionSpec.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/groovy/StringReverse.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/groovy/FibonacciIterationSpec.groovy" afterPath="$PROJECT_DIR$/src/test/groovy/FibonacciIterationSpec.groovy" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/groovy/StringReverseSpec.groovy" afterPath="$PROJECT_DIR$/src/test/groovy/StringReverseSpec.groovy" />
     </list>
     <ignored path="quicksort.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -109,7 +98,18 @@
       <file leaf-file-name="StringReverseSpec.groovy" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/groovy/StringReverseSpec.groovy">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="68" selection-start="29" selection-end="29" vertical-scroll-proportion="0.053892214">
+            <state line="28" column="26" selection-start="566" selection-end="566" vertical-scroll-proportion="0.74204946">
+              <folding>
+                <element signature="e#0#24#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StringReverse.groovy" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/groovy/StringReverse.groovy">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="24" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -146,7 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/groovy/QuickSortRecursion.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/QuickSortRecursionSpec.groovy" />
         <option value="$PROJECT_DIR$/src/main/groovy/FibonnaciIteration/FibonnaciIteration.groovy" />
         <option value="$PROJECT_DIR$/src/main/groovy/FibonaciRecursion.groovy" />
@@ -161,6 +160,7 @@
         <option value="$PROJECT_DIR$/src/main/groovy/CheeseStrings.groovy" />
         <option value="$PROJECT_DIR$/src/main/groovy/UniqueCharsInString.groovy" />
         <option value="$PROJECT_DIR$/src/main/groovy/UniqueCharsInStringIterative.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/StringReverse.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/StringReverseSpec.groovy" />
       </list>
     </option>
@@ -179,7 +179,7 @@
     <OptionsSetting value="true" id="Edit" />
     <OptionsSetting value="true" id="Undo Check Out" />
     <OptionsSetting value="true" id="Get Latest Version" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -286,7 +286,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/groovy" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/groovy" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit3" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -312,30 +312,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UniqueCharsInStringIterativeSpec.string has unique characters">
-    <configuration default="false" name="FibonacciIterationSpec" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="kata" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FibonacciIterationSpec" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.StringReverseSpec.#exampleString should be reversed as #reversedString">
     <configuration default="false" name="FibonacciIterationSpec.fibonacci #n is #p" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="kata" />
@@ -437,6 +414,29 @@
       </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="StringReverseSpec.#exampleString should be reversed as #reversedString" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="kata" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StringReverseSpec" />
+      <option name="METHOD_NAME" value="#exampleString should be reversed as #reversedString" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -575,11 +575,11 @@
       </method>
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.FibonacciIterationSpec" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.FibonacciIterationSpec.fibonacci #n is #p" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.ClockDegreesBetweenHandsSpec" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.ClockDegreesBetweenHandsSpec.given the hour hand is #h and the second hand is #s expect degrees between to be #d" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.UniqueCharsInStringIterativeSpec.string has unique characters" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.FibonacciIterationSpec.fibonacci #n is #p" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.ClockDegreesBetweenHandsSpec" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.ClockDegreesBetweenHandsSpec.given the hour hand is #h and the second hand is #s expect degrees between to be #d" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.UniqueCharsInStringIterativeSpec.string has unique characters" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.StringReverseSpec.#exampleString should be reversed as #reversedString" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -610,16 +610,16 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879817" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38408118" sideWeight="0.6009818" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3050491" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38408118" sideWeight="0.6950113" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30498865" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879817" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -756,10 +756,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/StringReverse.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="24" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/groovy/StringReverseSpec.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="68" selection-start="29" selection-end="29" vertical-scroll-proportion="0.053892214">
-          <folding />
+        <state line="28" column="26" selection-start="566" selection-end="566" vertical-scroll-proportion="0.74204946">
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
