@@ -1,5 +1,5 @@
 import spock.lang.Specification
-import FibonnaciIteration.FibonnaciIteration
+import FibonnaciIteration
 
 class FibonacciIterationSpec extends Specification {
 
