@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73d6ffb6-8117-48cd-91b2-4f14947c1c14" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/groovy/FirstRepeatingCharacter.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/groovy/NoRepeatingCharacterException.groovy" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/groovy/FirstRepeatingCharacterSpec.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/groovy/NumbersToWords.groovy" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/groovy/NumbersToWordsSpec.groovy" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="quicksort.iws" />
@@ -77,93 +76,45 @@
     <favorites_list name="quicksort" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="ClockDegreesBetweenHands.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/groovy/ClockDegreesBetweenHands.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="52" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UniqueCharsInStringIterative.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/groovy/UniqueCharsInStringIterative.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="34" selection-start="8" selection-end="36" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StringReverseSpec.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/groovy/StringReverseSpec.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="26" selection-start="566" selection-end="566" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FirstRepeatingCharacterSpec.groovy" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/groovy/FirstRepeatingCharacterSpec.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="8" selection-start="557" selection-end="557" vertical-scroll-proportion="0.5518591">
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NoRepeatingCharacterException.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/groovy/NoRepeatingCharacterException.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="60" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FirstRepeatingCharacter.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/groovy/FirstRepeatingCharacter.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StringReverse.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/groovy/StringReverse.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="24" selection-start="315" selection-end="315" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="FibonnaciIteration.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/groovy/FibonnaciIteration.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="21" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QuickSortRecursion.groovy" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/groovy/QuickSortRecursion.groovy">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="27" selection-end="27" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5561224">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="NumbersToWordsSpec.groovy" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/groovy/NumbersToWordsSpec.groovy">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="83" column="17" selection-start="1825" selection-end="1825" vertical-scroll-proportion="0.375">
+                  <folding>
+                    <element signature="e#0#31#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="NumbersToWords.groovy" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/groovy/NumbersToWords.groovy">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="NumbersToWords.groovy" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/groovy/NumbersToWords.groovy">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="37" column="0" selection-start="817" selection-end="817" vertical-scroll-proportion="0.023961661">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -176,10 +127,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/test/groovy/FibonacciIterationSpec.groovy" />
-        <option value="$PROJECT_DIR$/src/main/groovy/FibonnaciIteration.groovy" />
-        <option value="$PROJECT_DIR$/src/test/groovy/ClockDegreesBetweenHandsSpec.groovy" />
-        <option value="$PROJECT_DIR$/src/main/groovy/ClockDegreesBetweenHands.groovy" />
         <option value="$PROJECT_DIR$/src/test/groovy/CheeseStringsSpec.java" />
         <option value="$PROJECT_DIR$/src/test/groovy/CheeseStringsSpec.groovy" />
         <option value="$PROJECT_DIR$/src/main/groovy/CheeseStrings.groovy" />
@@ -192,14 +139,17 @@
         <option value="$PROJECT_DIR$/src/test/groovy/FirstRepeatingCharacterSpec.groovy" />
         <option value="$PROJECT_DIR$/src/main/groovy/NoRepeatingCharacterException.groovy" />
         <option value="$PROJECT_DIR$/src/main/groovy/FirstRepeatingCharacter.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/FindFirstNonRepeatingCharacterSpec.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/FindFirstNonRepeatingCharacter.groovy" />
+        <option value="$PROJECT_DIR$/src/test/groovy/NumbersToWordsSpec.groovy" />
+        <option value="$PROJECT_DIR$/src/main/groovy/NumbersToWords.groovy" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="959" />
     <option name="y" value="52" />
-    <option name="width" value="960" />
-    <option name="height" value="1004" />
+    <option name="width" value="1920" />
+    <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -347,44 +297,15 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.FirstRepeatingCharacterSpec">
-    <configuration default="false" name="UniqueCharsInStringIterativeSpec.string has unique characters" type="JUnit" factoryName="JUnit" temporary="true">
+  <component name="RunManager" selected="JUnit.NumbersToWordsSpec">
+    <configuration default="false" name="NumbersToWordsSpec.#number should translate to #word" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="kata" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UniqueCharsInStringIterativeSpec" />
-      <option name="METHOD_NAME" value="string has unique characters" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="StringReverseSpec.#exampleString should be reversed as #reversedString" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="kata" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StringReverseSpec" />
-      <option name="METHOD_NAME" value="#exampleString should be reversed as #reversedString" />
+      <option name="MAIN_CLASS_NAME" value="NumbersToWordsSpec" />
+      <option name="METHOD_NAME" value="#number should translate to #word" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -400,14 +321,14 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="FirstRepeatingCharacterSpec.the first repeating character in #word is #character" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="NumbersToWordsSpec.tens: #number should translate to #word" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="kata" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstRepeatingCharacterSpec" />
-      <option name="METHOD_NAME" value="the first repeating character in #word is #character" />
+      <option name="MAIN_CLASS_NAME" value="NumbersToWordsSpec" />
+      <option name="METHOD_NAME" value="tens: #number should translate to #word" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -423,38 +344,61 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="FirstRepeatingCharacterSpec.first repeating character when no repeating character" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="NumbersToWordsSpec" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="kata" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstRepeatingCharacterSpec" />
-      <option name="METHOD_NAME" value="first repeating character when no repeating character" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="FirstRepeatingCharacterSpec" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="kata" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FirstRepeatingCharacterSpec" />
+      <option name="MAIN_CLASS_NAME" value="NumbersToWordsSpec" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="NumbersToWordsSpec.compound tens: #number should translate to #word" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="kata" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NumbersToWordsSpec" />
+      <option name="METHOD_NAME" value="compound tens: #number should translate to #word" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="NumbersToWordsSpec.hundreds: #number should translate to #word" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="kata" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="NumbersToWordsSpec" />
+      <option name="METHOD_NAME" value="hundreds: #number should translate to #word" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -604,11 +548,11 @@
       </method>
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.UniqueCharsInStringIterativeSpec.string has unique characters" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.StringReverseSpec.#exampleString should be reversed as #reversedString" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.FirstRepeatingCharacterSpec.the first repeating character in #word is #character" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.FirstRepeatingCharacterSpec.first repeating character when no repeating character" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.FirstRepeatingCharacterSpec" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.NumbersToWordsSpec.#number should translate to #word" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.NumbersToWordsSpec.tens: #number should translate to #word" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.NumbersToWordsSpec" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.NumbersToWordsSpec.compound tens: #number should translate to #word" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.NumbersToWordsSpec.hundreds: #number should translate to #word" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -622,10 +566,15 @@
       <created>1348411046674</created>
       <updated>1348411046674</updated>
     </task>
+    <task id="LOCAL-00001" summary="@Miles first non repeating char">
+      <created>1349341044586</created>
+      <updated>1349341044586</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="959" y="52" width="960" height="1004" extended-state="4" />
+    <frame x="0" y="52" width="1920" height="1027" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -639,13 +588,13 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879817" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32788798" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3475877" sideWeight="0.70408165" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29591838" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3475877" sideWeight="0.720442" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.279558" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -690,7 +639,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="@Miles first non repeating char" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -703,6 +652,7 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="@Miles first non repeating char" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -712,26 +662,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="150" selection-end="150" vertical-scroll-proportion="0.15771028" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/QuickSortRecursionSpec.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="9" selection-start="174" selection-end="174" vertical-scroll-proportion="0.29100528" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/groovy/FibonacciRecursion.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="12" selection-start="12" selection-end="12" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/groovy/FibonacciIterationSpec.groovy">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="29" selection-start="88" selection-end="251" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/groovy/FibonacciRecursionSpec.groovy">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="7" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0" />
@@ -797,10 +727,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/groovy/FirstRepeatingCharacterSpec.groovy">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="8" selection-start="557" selection-end="557" vertical-scroll-proportion="0.5518591">
+        <state line="25" column="8" selection-start="557" selection-end="557" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/FindFirstNonRepeatingCharacter.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="62" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/FindFirstNonRepeatingCharacterSpec.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="22" selection-start="469" selection-end="469" vertical-scroll-proportion="0.4778761">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/groovy/NumbersToWordsSpec.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="17" selection-start="1825" selection-end="1825" vertical-scroll-proportion="0.375">
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/groovy/NumbersToWords.groovy">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="37" column="0" selection-start="817" selection-end="817" vertical-scroll-proportion="0.023961661">
+          <folding />
         </state>
       </provider>
     </entry>
