@@ -1,7 +1,5 @@
-apply plugin: 'eclipse'
 apply plugin: 'idea'
 apply plugin: 'groovy'
-apply plugin: 'clover'
 
 repositories {
     mavenCentral()
@@ -11,16 +9,6 @@ dependencies {
     groovy "org.codehaus.groovy:groovy-all:2.0.5"
 
     testCompile "org.spockframework:spock-core:0.7-groovy-2.0",
-            'cglib:cglib-nodep:2.2'
-
+         "cglib:cglib-nodep:2.2"
 }
 
-buildscript {
-    repositories {
-        mavenCentral()
-    }
-
-    dependencies {
-        classpath 'org.gradle.api.plugins:gradle-clover-plugin:0.6'
-    }
-}
