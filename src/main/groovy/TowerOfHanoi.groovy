@@ -1,21 +1,33 @@
-
 class TowerOfHanoi {
 
-    Queue<String> moves = new LinkedList<String>()
+    List<Integer> plates = []
 
-    void resolve(int plate, String from, String to, String via) {
+    Stack<Integer> towerA = new Stack<Integer>()
+    Stack<Integer> towerB = new Stack<Integer>()
+    Stack<Integer> towerC = new Stack<Integer>()
 
-        if (plate > 0) {
+    void resolve() {
 
-            resolve(plate - 1, from, via, to)
-            move(plate, from, to)
-            resolve(plate - 1, via, to, from)
-        } else {
-            move(plate, from, to)
-        }
+        doResolve(plates[0], towerA, towerB, towerC)
     }
 
-    private void move(int plate, String from, String to) {
-        moves.add "Moving ${plate} $from $to"
+    void doResolve(Integer plate, Stack<Integer> towerFrom, Stack<Integer> towerTo, Stack<Integer> towerVia) {
+
+        if (plate == plates.last()) {
+            move(towerFrom, towerTo)
+        }else{
+
+            doResolve(plate -1, towerFrom, towerVia, towerTo)
+            move(towerFrom, towerTo)
+            doResolve(plate-1, towerVia, towerTo, towerFrom)
+        }
+
+
+
+    }
+
+    void move(Stack<Integer> towerFrom, Stack<Integer> towerTo) {
+        towerTo.push towerFrom.pop()
     }
 }
+

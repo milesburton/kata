@@ -2,18 +2,29 @@ import spock.lang.Specification
 
 class TowerOfHanoiSpec extends Specification {
 
-    TowerOfHanoi towerOfHanoi = new TowerOfHanoi()
+    TowerOfHanoi towerOfHanoi
 
     def 'hanoi should resolve 3 items'() {
 
         given:
-        String towerOfHanoi
+        towerOfHanoi = new TowerOfHanoi()
+        towerOfHanoi.plates << 3
+        towerOfHanoi.plates << 2
+        towerOfHanoi.plates << 1
 
-        expect:
-        resolve(3, 'a', 'b', 'c')
+        towerOfHanoi.plates.each { towerOfHanoi.towerA << it }
+
+        println towerOfHanoi.plates
+        println towerOfHanoi.towerA
+
+        when:
+        towerOfHanoi.resolve()
+
+        then:
+        towerOfHanoi.towerC.pop() == 1
+        towerOfHanoi.towerC.pop() == 2
+        towerOfHanoi.towerC.pop() == 3
     }
-
-
 
 
 }
