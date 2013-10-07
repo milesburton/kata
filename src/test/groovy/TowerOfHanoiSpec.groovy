@@ -14,13 +14,13 @@ class TowerOfHanoiSpec extends Specification {
 
         towerOfHanoi.plates.each { towerOfHanoi.towerA << it }
 
-        println towerOfHanoi.plates
-        println towerOfHanoi.towerA
-
         when:
         towerOfHanoi.resolve()
 
         then:
+        println "A: ${towerOfHanoi.towerA}"
+        println "B: ${towerOfHanoi.towerB}"
+        println "C: ${towerOfHanoi.towerC}"
         towerOfHanoi.towerC.pop() == 1
         towerOfHanoi.towerC.pop() == 2
         towerOfHanoi.towerC.pop() == 3

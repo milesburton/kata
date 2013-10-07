@@ -8,7 +8,7 @@ class TowerOfHanoi {
 
     void resolve() {
 
-        doResolve(plates[0], towerA, towerB, towerC)
+        doResolve(plates.first(), towerA, towerC,towerB )
     }
 
     void doResolve(Integer plate, Stack<Integer> towerFrom, Stack<Integer> towerTo, Stack<Integer> towerVia) {
@@ -21,9 +21,6 @@ class TowerOfHanoi {
             move(towerFrom, towerTo)
             doResolve(plate-1, towerVia, towerTo, towerFrom)
         }
-
-
-
     }
 
     void move(Stack<Integer> towerFrom, Stack<Integer> towerTo) {
